@@ -12,6 +12,7 @@ body {
   background-color: cyan;
 }
 
+/* properties of the navigation bar and of lists*/
 .navbar {
   display: block;
   width: 100%;
@@ -46,6 +47,34 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
+
+
+/* properties of the content of contact.html */
+
+.socials a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+}
+
+.instagram a:hover {
+  background-color: pink;
+}
+
+.twitter a:hover {
+  background-color: cyan;
+}
+
+.facebook a:hover {
+  background-color: blue;
+}
+
+.email a:hover {
+  background-color: black;
+}
+
 footer {
   margin-top: 80%;
 }
