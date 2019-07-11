@@ -21,7 +21,7 @@ body {
   background-size: cover;
   position: relative;
   color : white;
-  max-width:100%
+  margin: 0;
 }
 
 p {
@@ -130,8 +130,15 @@ a.em-h { background: #FF5700; }
 /* properties of the sharing buttons */
 
 #menu-outer {
-	max-width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
   align-self: auto;
+  background-color: #182a4b;
+  opacity: 1;
+  height: 300px;
 }
 
 .table {
@@ -144,15 +151,14 @@ ul#horizontal-list {
 	list-style: none;
 	padding-top: 20px;
   align-self: auto;
-
+  display: block;
 	}
 
 ul#horizontal-list li {
-		display: inline;
     margin : 20px;
-    max-width: 100%;
+    max-width: 50%;
     align-self: auto;
-	}
+}
 
 .sharing li a{
   opacity: 0.5;
