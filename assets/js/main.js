@@ -133,39 +133,3 @@
 				$message._hide = function() {
 					$message.classList.remove('visible');
 				};
-
-			// Events.
-			// Note: If you're *not* using AJAX, get rid of this event listener.
-				$form.addEventListener('submit', function(event) {
-
-					event.stopPropagation();
-					event.preventDefault();
-
-					// Hide message.
-						$message._hide();
-
-					// Disable submit.
-						$submit.disabled = true;
-
-					// Process form.
-					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
-					// but there's enough here to piece together a working AJAX submission call that does.
-						window.setTimeout(function() {
-
-							// Reset form.
-								$form.reset();
-
-							// Enable submit.
-								$submit.disabled = false;
-
-							// Show message.
-								$message._show('success', 'Thank you!');
-								//$message._show('failure', 'Something went wrong. Please try again.');
-
-						}, 750);
-
-				});
-
-		})();
-
-})();
