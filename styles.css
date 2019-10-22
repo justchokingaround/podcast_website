@@ -20,9 +20,9 @@ html{
 }
 
 body {
-  background-color: cyan;
-  background-image: url("img/background.png");
-  background-color: #cccccc;
+  background-color: #001e3c;
+  /*background-image: url("img/background.png");
+  background-color: #cccccc;*/
   height: 200%;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,7 +141,8 @@ a.em-h { background: #FF5700; }
   right: 0;
   overflow: auto;
   align-self: auto;
-  background-color: #182a4b;
+  /*background: url("images/bg05.jpg");
+  background-size: cover;*/
   opacity: 1;
   height: 300px;
 }
